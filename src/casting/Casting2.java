@@ -1,0 +1,15 @@
+package casting;
+
+/*
+* 명시적 형변환
+* */
+public class Casting2 {
+    public static void main(String[] args) {
+        double doubleValue = 1.5;
+        int intValue = 0;
+
+//        intValue = doubleValue; // 컴파일 오류 발생, 자동 형변환 불가
+        intValue = (int) doubleValue; // 형 변환
+        System.out.println("intValue = " + intValue);
+    }
+}
