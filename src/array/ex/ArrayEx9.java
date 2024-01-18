@@ -18,7 +18,7 @@ public class ArrayEx9 {
             if (type == 1) {
                 if (productCount >= maxCount) {
                     System.out.println("더 이상 상품을 등록할 수 없습니다.");
-                    break;
+                    continue;
                 }
                 System.out.print("상품 이름을 입력하세요:" );
                 productNames[productCount] = scanner.nextLine();
@@ -28,7 +28,7 @@ public class ArrayEx9 {
             } else if (type == 2) {
                 if (productCount == 0) {
                     System.out.println("등록된 상품이 없습니다.");
-                    break;
+                    continue;
                 } else {
                     for (int i = 0; i < productCount; i++) {
                         System.out.println(productNames[i] + ": " + productPrices[i] + "원");
