@@ -10,7 +10,7 @@ public class ProductOrderMain {
         order1.price = 2000;
         order1.quantity = 2;
         orders[0] = order1;
-        
+
         // 두 번째 상품 주문 정보 입력
         ProductOrder order2 = new ProductOrder();
         order2.productName = "김치";
